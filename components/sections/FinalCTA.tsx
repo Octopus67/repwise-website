@@ -32,7 +32,7 @@ export function FinalCTA() {
               className="bg-[#06B6D4] hover:bg-[#0891B2] text-[#0F172A] font-semibold px-10 py-5 text-lg rounded-xl transition-colors"
               onClick={() => { window.location.href = '/download'; }}
             >
-              Start Free — 7 Days, No Card
+              Get Repwise Free
             </MagneticButton>
           </div>
         </ScrollReveal>
@@ -40,11 +40,11 @@ export function FinalCTA() {
         <ScrollReveal delay={0.4}>
           <div className="mt-8 flex items-center gap-4 justify-center">
             <span aria-disabled="true" role="link" className="text-sm text-[#94A3B8] opacity-50 cursor-not-allowed pointer-events-none underline underline-offset-4" title="Coming Soon">
-              App Store — Coming Soon
+              App Store (Coming Soon)
             </span>
             <span className="text-[#1E293B]">|</span>
             <span aria-disabled="true" role="link" className="text-sm text-[#94A3B8] opacity-50 cursor-not-allowed pointer-events-none underline underline-offset-4" title="Coming Soon">
-              Google Play — Coming Soon
+              Google Play (Coming Soon)
             </span>
             <span className="text-[#1E293B]">|</span>
             <a href={BRAND.telegram} className="text-sm text-[#94A3B8] hover:text-[#F1F5F9] transition-colors underline underline-offset-4">

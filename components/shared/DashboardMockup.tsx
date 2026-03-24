@@ -51,7 +51,7 @@ export function DashboardMockup({ className = '' }: { className?: string }) {
               <span className="text-[8px] text-[#06B6D4]">Push Day</span>
             </div>
             <div className="space-y-1.5">
-              {['Bench Press — 4×8', 'OHP — 3×10', 'Incline DB — 3×12'].map((ex) => (
+              {['Bench Press - 4×8', 'OHP - 3×10', 'Incline DB - 3×12'].map((ex) => (
                 <div key={ex} className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#22C55E]" />
                   <span className="text-[8px] text-[#94A3B8]">{ex}</span>

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
 export const metadata: Metadata = {
-  title: 'Download — Repwise',
-  description: 'Download Repwise for iOS and Android. Start your 7-day free trial today.',
+  title: 'Download | Repwise',
+  description: 'Download Repwise for iOS and Android. Completely free.',
   alternates: { canonical: '/download' },
 };
 

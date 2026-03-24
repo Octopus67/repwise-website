@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About — Repwise',
+  title: 'About | Repwise',
   description: 'Built by a lifter, for lifters. The story behind Repwise.',
   alternates: { canonical: '/about' },
 };
@@ -34,8 +34,8 @@ export default function AboutPage() {
           </p>
           <h3 className="text-xl font-semibold text-[#F1F5F9] mb-3">Why I Built This</h3>
           <p>
-            I got tired of juggling three apps — one for training, one for nutrition, one for
-            analytics — none of which talked to each other. Repwise is the single app that
+            I got tired of juggling three apps (one for training, one for nutrition, one for
+            analytics) and none of them talked to each other. Repwise is the single app that
             connects your training, nutrition, and recovery into one intelligent system, all
             grounded in peer-reviewed science.
           </p>
@@ -58,7 +58,7 @@ export default function AboutPage() {
           </div>
           <p>
             Built with TypeScript, React Native, and FastAPI. Every feature is backed by automated
-            tests. No shortcuts, no tech debt — just solid engineering for an app you can rely on.
+            tests. No shortcuts, no tech debt. Just solid engineering for an app you can rely on.
           </p>
         </section>
 

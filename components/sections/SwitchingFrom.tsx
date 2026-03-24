@@ -4,15 +4,15 @@ import { GlassCard } from '@/components/ui/GlassCard';
 const competitors = [
   {
     name: 'Strong',
-    description: 'Import your workout history. Keep your PRs. Add nutrition tracking and hypertrophy science on top.',
+    description: 'Your workout history imports straight over, PRs and all. Now you get nutrition tracking and actual hypertrophy science too.',
   },
   {
     name: 'MyFitnessPal',
-    description: 'Bring your nutrition habits. Get a 3M+ food database with barcode scanning, plus real training intelligence.',
+    description: 'Same barcode scanning and food database you\u0027re used to (actually bigger, 3M+ foods). But now your nutrition data actually connects to your training.',
   },
   {
     name: 'RP Hypertrophy',
-    description: 'Same science-based approach at 78% less cost. Plus full nutrition tracking, analytics, and adaptive coaching.',
+    description: 'Same volume landmarks and fatigue management, but free. And you get full nutrition tracking on top, which RP doesn\u0027t do.',
   },
 ];
 

@@ -6,9 +6,9 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { staggerContainer, fadeUp } from '@/lib/animations';
 
 const steps = [
-  { num: '01', icon: Target, title: 'Set Your Goals', desc: '11-step onboarding personalizes your TDEE, macros, and training targets' },
-  { num: '02', icon: Dumbbell, title: 'Train & Track', desc: 'Log workouts with real-time feedback. Scan food with one tap.' },
-  { num: '03', icon: TrendingUp, title: 'See Results', desc: 'Analytics, weekly reports, and adaptive coaching evolve with you' },
+  { num: '01', icon: Target, title: 'Set Your Goals', desc: 'A quick onboarding quiz sets your TDEE, macros, and training targets. Takes about 2 minutes.' },
+  { num: '02', icon: Dumbbell, title: 'Train & Track', desc: 'Log your sets, scan your food. The app tracks stimulating reps and flags junk volume in real time.' },
+  { num: '03', icon: TrendingUp, title: 'See Results', desc: 'Weekly reports show what\u0027s working. Coaching adjusts your plan based on real data.' },
 ];
 
 export function HowItWorks() {

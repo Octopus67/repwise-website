@@ -21,11 +21,11 @@ const freeFeatures = [
 
 const coachingFeatures = [
   'Everything in Free, plus:',
-  'Dedicated personal coach',
-  'Custom program design',
+  'A dedicated coach who knows your data',
+  'Custom programming based on your analytics',
   'Weekly video check-ins',
-  'Nutrition plan adjustments',
-  'Form review & feedback',
+  'Nutrition adjustments as your body changes',
+  'Form review and feedback on your lifts',
   'Priority support',
 ];
 
@@ -38,16 +38,16 @@ export function Pricing() {
             Everything Free. Seriously.
           </h2>
           <p className="text-[#94A3B8] text-center max-w-2xl mx-auto mb-16">
-            Every feature in Repwise is free — hypertrophy science, nutrition tracking, analytics, coaching, all of it. The only paid option is 1-on-1 personal coaching.
+            Every feature in Repwise is free. Hypertrophy science, nutrition tracking, analytics, coaching, all of it. The only paid option is 1-on-1 personal coaching.
           </p>
         </ScrollReveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <ScrollReveal>
             <GlassCard className="p-8 border-[#06B6D4]/30 relative">
-              <Badge variant="default" className="mb-4">FREE FOREVER</Badge>
+              <Badge variant="default" className="mb-4">FREE</Badge>
               <h3 className="text-2xl font-bold text-[#F1F5F9] mb-2">Full Access</h3>
-              <p className="text-4xl font-bold text-[#06B6D4] mb-6">$0<span className="text-lg text-[#94A3B8] font-normal">/forever</span></p>
+              <p className="text-4xl font-bold text-[#06B6D4] mb-6">$0</p>
               <ul className="space-y-3 mb-8">
                 {freeFeatures.map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm text-[#94A3B8]">
@@ -80,7 +80,7 @@ export function Pricing() {
         </div>
 
         <ScrollReveal delay={0.2}>
-          <p className="text-center text-sm text-[#94A3B8] mt-8">No credit card required. No trial period. Just free.</p>
+          <p className="text-center text-sm text-[#94A3B8] mt-8">No credit card required. No catch.</p>
           <p className="text-center text-xs text-[#64748B] mt-2">Prices shown in USD. Coaching prices may vary by region.</p>
         </ScrollReveal>
       </div>

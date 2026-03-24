@@ -52,7 +52,7 @@ export function Hero() {
                 className="bg-[#06B6D4] hover:bg-[#0891B2] text-[#0F172A] font-semibold px-8 py-4 text-lg rounded-xl transition-colors"
                 onClick={() => { window.location.href = '/download'; }}
               >
-                Start Free — 7 Days, No Card
+                Get Repwise Free
               </MagneticButton>
             </div>
           </ScrollReveal>
@@ -60,11 +60,11 @@ export function Hero() {
           <ScrollReveal delay={0.9}>
             <div className="mt-6 flex items-center gap-4 justify-center lg:justify-start">
               <span aria-disabled="true" role="link" className="text-sm text-[#94A3B8] opacity-50 cursor-not-allowed pointer-events-none underline underline-offset-4" title="Coming Soon">
-                App Store — Coming Soon
+                App Store (Coming Soon)
               </span>
               <span className="text-[#1E293B]">|</span>
               <span aria-disabled="true" role="link" className="text-sm text-[#94A3B8] opacity-50 cursor-not-allowed pointer-events-none underline underline-offset-4" title="Coming Soon">
-                Google Play — Coming Soon
+                Google Play (Coming Soon)
               </span>
             </div>
             <p className="mt-2 text-xs text-[#64748B] text-center lg:text-left">

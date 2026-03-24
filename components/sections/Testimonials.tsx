@@ -7,28 +7,28 @@ const testimonials = [
     name: 'Mike K.',
     color: '#06B6D4',
     stat: 'Using Repwise for 4 months',
-    quote: 'I was paying for Strong AND MacroFactor. Switched to Repwise and honestly the nutrition tracking is just as good, plus I finally understand what volume landmarks actually mean for my training. The fact that it\'s free is insane.',
+    quote: 'Was using Strong for workouts and MacroFactor for food. Repwise replaced both. The thing that got me was seeing exactly how much stimulus each muscle actually got per session. Cut my workout time down too. Oh and it\'s free, which is wild.',
   },
   {
     initials: 'SR',
     name: 'Sarah R.',
     color: '#22C55E',
     stat: 'Down 8kg in 12 weeks',
-    quote: 'The weekly TDEE recalibration actually works. My calories adjusted automatically when my weight loss stalled at week 6. Didn\'t have to guess or manually change anything. The weekly report told me exactly what to fix.',
+    quote: 'My weight loss stalled around week 6 and the app just... adjusted my calories automatically. Didn\'t have to Google "why am I not losing weight" for the hundredth time. The weekly report showed me exactly what changed.',
   },
   {
     initials: 'JT',
     name: 'James T.',
     color: '#F59E0B',
     stat: 'Hit 3 PRs in first month',
-    quote: 'The hypertrophy units thing clicked for me after about 2 weeks. I realized half my sets were basically junk volume — too far from failure. Cut my session time by 20 minutes and actually started growing faster.',
+    quote: 'Took me about 2 weeks to get the hypertrophy units thing. Then I realized like half my sets were junk volume because I was stopping too far from failure. Shorter sessions, better results. Wish I\'d known this years ago.',
   },
   {
     initials: 'AP',
     name: 'Ananya P.',
     color: '#EC4899',
     stat: 'Switched from RP Hypertrophy',
-    quote: 'RP was $300/year and didn\'t even have nutrition tracking. Repwise gives me the same science-based approach with full macro tracking, and it\'s free. The barcode scanner saves me so much time.',
+    quote: 'I was paying RP $300 a year and they don\'t even do nutrition. Repwise has the same volume landmark stuff, fatigue tracking, WNS scoring, plus full macro tracking with barcode scanning. And it\'s free. I don\'t get how but I\'m not complaining.',
   },
 ];
 

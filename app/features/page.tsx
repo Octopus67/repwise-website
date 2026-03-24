@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Features — Repwise',
+  title: 'Features | Repwise',
   description: 'Explore 30+ features including hypertrophy science, nutrition tracking, adaptive coaching, and analytics.',
   alternates: { canonical: '/features' },
 };
@@ -29,7 +29,7 @@ export default function FeaturesPage() {
       <section className="pb-24 px-6 text-center">
         <ScrollReveal>
           <Link href="/download">
-            <Button variant="primary" size="lg">Start Free Trial</Button>
+            <Button variant="primary" size="lg">Get Repwise Free</Button>
           </Link>
         </ScrollReveal>
       </section>

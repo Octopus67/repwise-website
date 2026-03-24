@@ -11,7 +11,7 @@ export function MidPageCTA() {
         <ScrollReveal>
           <p className="text-2xl font-semibold text-[#F1F5F9] mb-6">Ready to try it?</p>
           <Link href="/download">
-            <Button variant="primary">Start Your Free Trial</Button>
+            <Button variant="primary">Get Repwise Free</Button>
           </Link>
         </ScrollReveal>
       </div>

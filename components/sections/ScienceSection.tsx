@@ -16,14 +16,14 @@ const cards = [
   { title: 'Hypertrophy Units (WNS)', desc: 'We quantify your muscle-building stimulus with Weighted Number of Sets' },
   { title: 'Volume Landmarks', desc: 'Know exactly when you\u2019re doing too little (below MEV), hitting the sweet spot (MAV), or risking overtraining (above MRV)' },
   { title: 'Fatigue Engine', desc: '4-component fatigue scoring: strength regression (35%), volume load (30%), training frequency (20%), and nutrition compliance (15%)' },
-  { title: 'RPE/RIR Tracking', desc: 'Rate of Perceived Exertion and Reps in Reserve \u2014 color-coded, with built-in education' },
+  { title: 'RPE/RIR Tracking', desc: 'Rate of Perceived Exertion and Reps in Reserve. Color-coded, with built-in education' },
 ];
 
 export function ScienceSection() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <section className="relative py-24 lg:py-32 px-6 overflow-hidden">
+    <section id="science" className="relative py-24 lg:py-32 px-6 overflow-hidden">
       {/* Topographic grid background */}
       <div
         className="absolute inset-0 opacity-[0.03]"

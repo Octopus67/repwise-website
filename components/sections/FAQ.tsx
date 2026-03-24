@@ -8,11 +8,11 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 const faqs = [
   {
     q: 'Is Repwise free?',
-    a: 'Yes! Core features are free forever. Premium unlocks adaptive coaching, health reports, micronutrient tracking, and more for $9.99/mo or $79.99/yr.',
+    a: 'Yeah, everything is free. Hypertrophy science, nutrition tracking, analytics, coaching modes, all of it. The only paid option is 1-on-1 personal coaching.',
   },
   {
     q: 'What makes Repwise different from Strong or Hevy?',
-    a: 'Repwise is the only app combining hypertrophy science (volume landmarks, fatigue scoring, WNS) with full nutrition tracking (3M+ foods, barcode scanning, micronutrients) and adaptive coaching — all in one app.',
+    a: 'Repwise is the only app combining hypertrophy science (volume landmarks, fatigue scoring, WNS) with full nutrition tracking (3M+ foods, barcode scanning, micronutrients) and adaptive coaching, all in one app.',
   },
   {
     q: 'Does it work offline?',
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: 'Can I import data from other apps?',
-    a: 'Yes! Repwise supports importing workout history from Strong, Hevy, and other popular apps.',
+    a: 'Yes. Repwise supports importing workout history from Strong, Hevy, and other popular apps.',
   },
   {
     q: 'What food databases do you use?',
@@ -36,15 +36,15 @@ const faqs = [
   },
   {
     q: 'How are Hypertrophy Units calculated?',
-    a: 'Hypertrophy Units (HU) measure the actual growth stimulus reaching each muscle. For each set, we calculate stimulating reps — only the last 0-5 reps before failure count. RIR 0 gives 5 stimulating reps, RIR 4+ gives zero (junk volume). We then apply exercise coefficients (bench press = 1.0× chest, 0.5× triceps), a diminishing returns curve (6 sets ≈ 2× stimulus, not 6×), and subtract atrophy between sessions. The result: a single number that tells you exactly how much growth stimulus each muscle received.',
+    a: 'Hypertrophy Units (HU) measure the actual growth stimulus reaching each muscle. For each set, we calculate stimulating reps. Only the last 0-5 reps before failure count. RIR 0 gives 5 stimulating reps, RIR 4+ gives zero (junk volume). We then apply exercise coefficients (bench press = 1.0× chest, 0.5× triceps), a diminishing returns curve (6 sets ≈ 2× stimulus, not 6×), and subtract atrophy between sessions. The result: a single number that tells you exactly how much growth stimulus each muscle received.',
   },
   {
     q: 'How does the TDEE calculation work?',
-    a: 'We start with your BMR using the Katch-McArdle formula (if body fat is known) or Mifflin-St Jeor. We multiply by your activity level, then apply your goal offset (cutting: -500 kcal, bulking: +300 kcal). The magic is weekly recalibration — every week, we compare your actual weight change to your expected change using EMA-smoothed bodyweight data, and adjust your targets by up to ±300 kcal. Your TDEE gets more accurate every single week.',
+    a: 'We start with your BMR using the Katch-McArdle formula (if body fat is known) or Mifflin-St Jeor. We multiply by your activity level, then apply your goal offset (cutting: -500 kcal, bulking: +300 kcal). The key part is weekly recalibration. Every week, we compare your actual weight change to your expected change using EMA-smoothed bodyweight data, and adjust your targets by up to ±300 kcal. Your TDEE gets more accurate every single week.',
   },
   {
     q: 'What is Adaptive Training?',
-    a: 'Repwise offers 4 coaching modes. Manual: you set all targets yourself. Coached: the app adjusts your calories and macros based on weekly check-ins. Collaborative: you review and approve the app\'s suggestions before they apply. Recomp: specialized mode for simultaneous fat loss and muscle gain with a recomposition score. All modes use your real data — not generic formulas.',
+    a: 'Repwise offers 4 coaching modes. Manual: you set all targets yourself. Coached: the app adjusts your calories and macros based on weekly check-ins. Collaborative: you review and approve the app\'s suggestions before they apply. Recomp: specialized mode for simultaneous fat loss and muscle gain with a recomposition score. All modes use your real data, not generic formulas.',
   },
   {
     q: 'What\'s in the Weekly Intelligence Report?',
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: 'How does onboarding work?',
-    a: 'A 9-step wizard personalizes everything in under 3 minutes. You\'ll set your goal (lose fat, build muscle, maintain, recomp), enter body measurements, choose your activity level, see your personalized TDEE breakdown with animated charts, select a diet style (balanced, high protein, low carb, keto), and review your complete plan before starting. Every number is editable — you\'re always in control.',
+    a: 'A 9-step wizard personalizes everything in under 3 minutes. You\'ll set your goal (lose fat, build muscle, maintain, recomp), enter body measurements, choose your activity level, see your personalized TDEE breakdown with animated charts, select a diet style (balanced, high protein, low carb, keto), and review your complete plan before starting. Every number is editable and you can change anything later.',
   },
 ];
 

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service — Repwise',
+  title: 'Terms of Service | Repwise',
   description: 'Terms and conditions for using the Repwise fitness application.',
   alternates: { canonical: '/terms' },
 };
@@ -83,7 +83,7 @@ export default function TermsPage() {
         <section>
           <h2>7. Health &amp; Fitness Disclaimer</h2>
           <p>
-            Repwise provides general fitness and nutrition information — it is not a substitute for
+            Repwise provides general fitness and nutrition information. It is not a substitute for
             professional medical advice. Always consult a qualified healthcare provider before
             starting any new diet or exercise program. TDEE calculations and coaching suggestions are
             algorithmic estimates and may not be appropriate for all individuals.

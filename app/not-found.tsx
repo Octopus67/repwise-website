@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
-  title: '404 — Repwise',
+  title: '404 | Repwise',
   description: 'Page not found. Return to the Repwise homepage.',
 };
 

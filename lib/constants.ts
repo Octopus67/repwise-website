@@ -8,12 +8,8 @@ export const BRAND = {
 } as const;
 
 export const PRICING = {
-  monthly: 9.99,
-  yearly: 79.99,
-  yearlySavings: '33%',
-  trialDays: 7,
-  competitorTotal: 402,
-  savings: '78%',
+  coachingMonthly: 9.99,
+  coachingYearly: 79.99,
 } as const;
 
 export const STATS = [
@@ -25,7 +21,8 @@ export const STATS = [
 
 export const NAV_LINKS = [
   { label: 'Features', href: '/features' },
+  { label: 'Science', href: '/features#science' },
   { label: 'Pricing', href: '/pricing' },
+  { label: 'Learn', href: '/blog' },
   { label: 'About', href: '/about' },
-  { label: 'Blog', href: '/blog' },
 ] as const;

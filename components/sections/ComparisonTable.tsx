@@ -9,7 +9,7 @@ const rows: { feature: string; values: Record<(typeof competitors)[number], bool
   { feature: 'Both in one app', values: { Repwise: true, Strong: false, Hevy: false, MacroFactor: false, 'RP Hypertrophy': false } },
   { feature: 'Adaptive coaching', values: { Repwise: true, Strong: false, Hevy: false, MacroFactor: true, 'RP Hypertrophy': false } },
   { feature: 'Body heat map', values: { Repwise: true, Strong: false, Hevy: false, MacroFactor: false, 'RP Hypertrophy': false } },
-  { feature: 'Price', values: { Repwise: '$80/yr', Strong: '$30/yr', Hevy: '$50/yr', MacroFactor: '$72/yr', 'RP Hypertrophy': '$300/yr' } },
+  { feature: 'Price', values: { Repwise: 'Free', Strong: '$30/yr', Hevy: '$50/yr', MacroFactor: '$72/yr', 'RP Hypertrophy': '$300/yr' } },
 ];
 
 function Cell({ value }: { value: boolean | string }) {
@@ -77,7 +77,7 @@ export function ComparisonTable() {
           <p className="text-center mt-12 text-[#94A3B8] text-lg">
             RP + MacroFactor ={' '}
             <span className="text-[#EF4444] line-through">$372/yr</span>.{' '}
-            Repwise = <span className="text-[#06B6D4] font-semibold">$80/yr</span>.
+            Repwise = <span className="text-[#06B6D4] font-semibold">Free</span>.
             <br className="hidden sm:block" />
             {' '}Same science. More features. One app.
           </p>

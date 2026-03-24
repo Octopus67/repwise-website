@@ -3,7 +3,6 @@
 import { motion, useReducedMotion } from 'motion/react';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
-import { PRICING } from '@/lib/constants';
 import { staggerContainer, fadeUp } from '@/lib/animations';
 
 const competitors = [
@@ -48,7 +47,7 @@ export function ProblemSection() {
             ))}
             <motion.div variants={!prefersReducedMotion ? fadeUp : undefined}>
               <div className="flex justify-end pt-2 pr-2">
-                <p className="text-[#64748B] font-mono line-through text-lg">= $402/yr</p>
+                <p className="text-[#64748B] font-mono text-lg">= $30–$300/yr each</p>
               </div>
             </motion.div>
           </motion.div>
@@ -60,7 +59,7 @@ export function ProblemSection() {
                 <p className="text-sm text-[#06B6D4] font-medium mb-2">All-in-one</p>
                 <p className="text-2xl font-bold mb-1">Repwise</p>
                 <p className="text-4xl font-bold font-mono text-[#06B6D4]">
-                  ${PRICING.yearly}<span className="text-base text-[#94A3B8]">/yr</span>
+                  Free
                 </p>
                 <p className="text-sm text-[#64748B] mt-3">Training + Nutrition + Coaching</p>
               </div>
@@ -71,7 +70,7 @@ export function ProblemSection() {
         <ScrollReveal>
           <p className="text-center text-[#94A3B8] mt-12 max-w-xl mx-auto text-lg leading-relaxed">
             Other apps make you choose between training science and nutrition tracking.
-            Repwise gives you both — for <span className="text-[#06B6D4] font-semibold">{PRICING.savings} less</span>.
+            Repwise gives you both. <span className="text-[#06B6D4] font-semibold">For free</span>.
           </p>
         </ScrollReveal>
       </div>

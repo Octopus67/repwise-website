@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Repwise',
+  title: 'Privacy Policy | Repwise',
   description: 'How Repwise collects, uses, stores, and protects your personal information.',
   alternates: { canonical: '/privacy' },
 };
@@ -37,27 +37,27 @@ export default function PrivacyPage() {
           <h2>2. Information We Collect</h2>
           <h3>Account Information</h3>
           <p>
-            Email address, name, profile photo URL, and OAuth provider IDs — used for account
+            Email address, name, profile photo URL, and OAuth provider IDs, used for account
             creation, login, and personalization. All stored encrypted at rest.
           </p>
           <h3>Body &amp; Health Data</h3>
           <p>
-            Height, weight, and body fat percentage — used for TDEE calculation, body composition
+            Height, weight, and body fat percentage, used for TDEE calculation, body composition
             tracking, and coaching recommendations. Encrypted at rest.
           </p>
           <h3>Activity &amp; Nutrition Data</h3>
           <p>
-            Nutrition logs and training logs — used for calorie/macro tracking, progressive overload
+            Nutrition logs and training logs, used for calorie/macro tracking, progressive overload
             analysis, and PR detection. Encrypted at rest.
           </p>
           <h3>Media</h3>
           <p>
-            Progress photos for visual progress tracking — stored encrypted in Cloudflare R2 object
+            Progress photos for visual progress tracking, stored encrypted in Cloudflare R2 object
             storage.
           </p>
           <h3>Device &amp; Technical Data</h3>
           <p>
-            Push tokens, analytics events (PostHog), and crash reports (Sentry) — used for
+            Push tokens, analytics events (PostHog), and crash reports (Sentry), used for
             notifications, improving features, and fixing bugs.
           </p>
         </section>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
           <p>
             We share limited data with Apple App Store, Google Play Store, RevenueCat, Sentry,
             PostHog, Firebase (FCM), Cloudflare R2, and AWS SES to operate the App. Repwise never
-            handles payment card data directly — all payments are processed through Apple or Google
+            handles payment card data directly. All payments are processed through Apple or Google
             via in-app purchases.
           </p>
         </section>
@@ -100,7 +100,7 @@ export default function PrivacyPage() {
           <h2>6. Data Retention</h2>
           <p>
             Your data is retained while your account is active. Upon deletion request, a 30-day grace
-            period begins. After 30 days, all personal data is permanently and irreversibly removed —
+            period begins. After 30 days, all personal data is permanently and irreversibly removed.
             including account info, body measurements, nutrition logs, training logs, progress photos,
             and device tokens.
           </p>
@@ -109,10 +109,10 @@ export default function PrivacyPage() {
         <section>
           <h2>7. Your Rights</h2>
           <ul>
-            <li>Access — view all your data within the App</li>
-            <li>Correction — update your information directly in the App</li>
-            <li>Deletion — request account deletion via account settings</li>
-            <li>Data Portability — request a machine-readable export by contacting us</li>
+            <li>Access: view all your data within the App</li>
+            <li>Correction: update your information directly in the App</li>
+            <li>Deletion: request account deletion via account settings</li>
+            <li>Data Portability: request a machine-readable export by contacting us</li>
           </ul>
         </section>
 
