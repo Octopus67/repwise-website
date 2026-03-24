@@ -43,14 +43,14 @@ const features = [
     title: 'Progress Photos',
     description: 'Guided pose overlays for consistent photos. Compare side-by-side across any timeframe.',
     tags: [],
-    span: '',
+    span: 'md:col-span-2',
   },
   {
     icon: BrainCircuit,
     title: 'Weekly Intelligence',
     description: 'Training volume, nutrition compliance, and weight trends — plus personalized recommendations.',
     tags: [],
-    span: '',
+    span: 'md:col-span-2',
   },
 ];
 

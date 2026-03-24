@@ -1,81 +1,87 @@
 'use client';
 
-import { useState } from 'react';
 import { GlassCard } from '@/components/ui/GlassCard';
 import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
-import { PRICING } from '@/lib/constants';
 import { Check } from 'lucide-react';
 
-const freeFeatures = ['Workout tracking', 'Basic exercise library', 'Set & rep logging', 'Rest timer'];
-const premiumFeatures = ['Everything in Free', 'Hypertrophy Science Engine', 'Full nutrition tracking (300k+ foods)', 'AI coaching & periodization', 'Volume landmarks & fatigue management', 'Advanced analytics & PR detection', 'Priority support'];
+const freeFeatures = [
+  'Hypertrophy Science Engine (WNS, volume landmarks)',
+  'Full nutrition tracking (3M+ foods, barcode scanning)',
+  'Adaptive TDEE with weekly recalibration',
+  '4 coaching modes (Manual, Coached, Collaborative, Recomp)',
+  'Analytics & strength progression charts',
+  'Progress photos with pose overlays',
+  'Weekly Intelligence Reports',
+  'Body measurements & composition',
+  'Data export (GDPR compliant)',
+  'All future features',
+];
+
+const coachingFeatures = [
+  'Everything in Free, plus:',
+  'Dedicated personal coach',
+  'Custom program design',
+  'Weekly video check-ins',
+  'Nutrition plan adjustments',
+  'Form review & feedback',
+  'Priority support',
+];
 
 export function Pricing() {
-  const [yearly, setYearly] = useState(false);
-  const price = yearly ? PRICING.yearly : PRICING.monthly;
-  const period = yearly ? '/year' : '/month';
-
   return (
-    <section id="pricing" className="py-24 px-6">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-24 lg:py-32" id="pricing">
+      <div className="mx-auto max-w-7xl px-6">
         <ScrollReveal>
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#F1F5F9] mb-4">
-            Start Free. Upgrade When You&apos;re Ready.
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#F1F5F9] text-center mb-4">
+            Everything Free. Seriously.
           </h2>
+          <p className="text-[#94A3B8] text-center max-w-2xl mx-auto mb-16">
+            Every feature in Repwise is free — hypertrophy science, nutrition tracking, analytics, coaching, all of it. The only paid option is 1-on-1 personal coaching.
+          </p>
         </ScrollReveal>
 
-        <ScrollReveal delay={0.1}>
-          <div className="flex justify-center mb-12">
-            <div className="inline-flex bg-white/[0.05] rounded-xl p-1 border border-white/[0.06]">
-              <button onClick={() => setYearly(false)} className={`px-5 py-2 text-sm rounded-lg transition-colors ${!yearly ? 'bg-[#06B6D4] text-[#0A0E13] font-semibold' : 'text-[#94A3B8] hover:text-[#F1F5F9]'}`}>Monthly</button>
-              <button onClick={() => setYearly(true)} className={`px-5 py-2 text-sm rounded-lg transition-colors ${yearly ? 'bg-[#06B6D4] text-[#0A0E13] font-semibold' : 'text-[#94A3B8] hover:text-[#F1F5F9]'}`}>
-                Yearly <span className="text-xs opacity-80">(-{PRICING.yearlySavings})</span>
-              </button>
-            </div>
-          </div>
-        </ScrollReveal>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-          <ScrollReveal delay={0.15}>
-            <GlassCard className="h-full">
-              <h3 className="text-xl font-bold text-[#F1F5F9] mb-2">Free</h3>
-              <p className="text-3xl font-bold text-[#F1F5F9] mb-6">$0 <span className="text-sm font-normal text-[#94A3B8]">forever</span></p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <ScrollReveal>
+            <GlassCard className="p-8 border-[#06B6D4]/30 relative">
+              <Badge variant="default" className="mb-4">FREE FOREVER</Badge>
+              <h3 className="text-2xl font-bold text-[#F1F5F9] mb-2">Full Access</h3>
+              <p className="text-4xl font-bold text-[#06B6D4] mb-6">$0<span className="text-lg text-[#94A3B8] font-normal">/forever</span></p>
               <ul className="space-y-3 mb-8">
-                {freeFeatures.map(f => (
-                  <li key={f} className="flex items-center gap-2 text-sm text-[#94A3B8]">
-                    <Check className="w-4 h-4 text-[#06B6D4] shrink-0" /> {f}
+                {freeFeatures.map((f) => (
+                  <li key={f} className="flex items-start gap-2 text-sm text-[#94A3B8]">
+                    <Check className="w-4 h-4 text-[#06B6D4] mt-0.5 shrink-0" />
+                    {f}
                   </li>
                 ))}
               </ul>
-              <Button variant="secondary" className="w-full">Download Free</Button>
+              <Button className="w-full" onClick={() => { window.location.href = '/download'; }}>Get Repwise Free</Button>
             </GlassCard>
           </ScrollReveal>
 
-          <ScrollReveal delay={0.25}>
-            <GlassCard className="h-full border-[#D4AF37]/30 scale-[1.02] shadow-[0_0_40px_rgba(212,175,55,0.15)]">
-              <div className="flex items-center justify-between mb-2">
-                <h3 className="text-xl font-bold text-[#F1F5F9]">Premium</h3>
-                <Badge variant="premium">BEST VALUE</Badge>
-              </div>
-              <p className="text-3xl font-bold text-[#F1F5F9] mb-6">
-                ${price} <span className="text-sm font-normal text-[#94A3B8]">{period}</span>
-              </p>
+          <ScrollReveal delay={0.1}>
+            <GlassCard className="p-8 border-[#D4AF37]/30 relative shadow-[0_0_40px_rgba(212,175,55,0.1)]">
+              <Badge variant="premium" className="mb-4">PERSONAL COACHING</Badge>
+              <h3 className="text-2xl font-bold text-[#F1F5F9] mb-2">1-on-1 Coaching</h3>
+              <p className="text-4xl font-bold text-[#D4AF37] mb-2">$9.99<span className="text-lg text-[#94A3B8] font-normal">/month</span></p>
+              <p className="text-sm text-[#94A3B8] mb-6">or $79.99/year (save 33%)</p>
               <ul className="space-y-3 mb-8">
-                {premiumFeatures.map(f => (
-                  <li key={f} className="flex items-center gap-2 text-sm text-[#94A3B8]">
-                    <Check className="w-4 h-4 text-[#D4AF37] shrink-0" /> {f}
+                {coachingFeatures.map((f, i) => (
+                  <li key={f} className={`flex items-start gap-2 text-sm ${i === 0 ? 'text-[#F1F5F9] font-semibold' : 'text-[#94A3B8]'}`}>
+                    {i > 0 && <Check className="w-4 h-4 text-[#D4AF37] mt-0.5 shrink-0" />}
+                    {f}
                   </li>
                 ))}
               </ul>
-              <Button variant="primary" className="w-full">Start {PRICING.trialDays}-Day Free Trial</Button>
+              <Button className="w-full bg-[#D4AF37] hover:bg-[#B8960C] text-[#0F172A]" onClick={() => { window.location.href = '/download'; }}>Start Coaching</Button>
             </GlassCard>
           </ScrollReveal>
         </div>
 
-        <ScrollReveal delay={0.3}>
-          <p className="text-center text-[#64748B] text-sm mt-8">No credit card required for trial</p>
-          <p className="text-xs text-[#64748B] mt-2">Prices shown in USD. Actual price may vary by region in the App Store and Google Play.</p>
+        <ScrollReveal delay={0.2}>
+          <p className="text-center text-sm text-[#94A3B8] mt-8">No credit card required. No trial period. Just free.</p>
+          <p className="text-center text-xs text-[#64748B] mt-2">Prices shown in USD. Coaching prices may vary by region.</p>
         </ScrollReveal>
       </div>
     </section>
