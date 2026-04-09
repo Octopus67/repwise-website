@@ -3,7 +3,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 
 export const metadata: Metadata = {
   title: 'Learn | Repwise',
-  description: 'Training science, nutrition tips, and product updates from the Repwise team.',
+  description: 'Training science, nutrition strategies, and hypertrophy research explained for serious lifters.',
   alternates: { canonical: '/blog' },
 };
 
@@ -62,6 +62,76 @@ Why? Because we think the best training and nutrition tools shouldn't be locked 
 We're betting that if the free app is genuinely good, some percentage of users will want expert guidance on top of it. And that's enough to build a sustainable business.
 
 Every feature in Repwise is free. No asterisks. No "upgrade to unlock." Just train, track, and grow.`,
+  },
+  {
+    title: 'RPE and RIR: What They Mean and Why They Matter',
+    date: 'Feb 1, 2025',
+    category: 'Science',
+    readTime: '4 min read',
+    content: `If you've spent any time reading about training programs online, you've probably seen RPE and RIR thrown around. They sound technical, but they're actually pretty simple once you break them down. And once you start using them, they'll change how you think about effort in the gym.
+
+RPE stands for Rate of Perceived Exertion. It's a 1 to 10 scale where 10 means absolute failure, you physically could not complete another rep. A 9 means you had one rep left. An 8 means two reps left. And so on down the line. It's subjective by design. Nobody knows how hard a set felt except you.
+
+RIR is Reps in Reserve, and it's basically the inverse of RPE. RIR 2 means you stopped with two reps still in the tank. RIR 0 means you went to failure. So RPE 8 equals RIR 2, RPE 9 equals RIR 1, and RPE 10 equals RIR 0.
+
+Here's why this matters for hypertrophy: research consistently shows that the sweet spot for muscle growth is RPE 8 to 9, or RIR 1 to 2. Training in this range gets you close enough to failure to recruit high-threshold motor units and create mechanical tension, but leaves just enough in the tank to recover between sets and sessions. Going to failure on every set sounds hardcore, but it accumulates way more fatigue than it's worth for most people.
+
+The tricky part is being honest with yourself. Most lifters overestimate their RIR by 2 to 3 reps, especially early on. That set you called RPE 8? It was probably a 6.
+
+Repwise helps with this by color-coding your RPE and RIR entries. Green means you're in the productive zone. Yellow means you're sandbagging or pushing too hard. Over time, you start calibrating your internal gauge against real performance data. That's the skill nobody talks about: learning what true effort actually feels like.
+
+Start simple. On your top sets this week, log your RIR honestly. Not what you want it to be. What it actually was.`,
+  },
+  {
+    title: 'Progress Photos: How to Actually Make Them Useful',
+    date: 'Feb 8, 2025',
+    category: 'Body Composition',
+    readTime: '3 min read',
+    content: `The scale is a liar. Not intentionally, but it just doesn't tell you what you think it does. You can gain 2 pounds overnight from a salty meal. You can drop 3 pounds after a hard training session just from sweat and glycogen depletion. Water retention from creatine, carb loading, stress, sleep, and your menstrual cycle if that applies to you. All of it moves the number without changing how much muscle or fat you're actually carrying.
+
+This is why progress photos matter. They show you what the scale can't: actual visual changes in body composition over time. But most people take them wrong, and then wonder why they can't see any difference.
+
+The biggest issue is consistency. If you take one photo in bathroom lighting at 7am and the next in gym lighting at 5pm, you're comparing two completely different images. Lighting alone can make you look 10 pounds leaner or 10 pounds softer. Same body, different photo.
+
+Here's what actually works: same time of day (morning, before eating), same location, same lighting, same three poses (front relaxed, side relaxed, back relaxed). Every single time. No flexing unless you also take a separate flexed set. The goal is to remove every variable except your actual physique.
+
+Repwise has pose overlays built into the progress photo feature. When you open the camera, a semi-transparent guide shows you exactly where to stand and how to position your body. It matches the previous photo's framing so your side-by-side comparisons are actually meaningful. You can swipe between weeks or months and see real changes instead of lighting tricks.
+
+Take photos every two weeks. Not every day. Daily photos just feed anxiety. Two-week intervals give your body enough time to show visible changes, especially if you're in a building phase where progress is gradual.`,
+  },
+  {
+    title: 'Understanding Your Fatigue Score',
+    date: 'Feb 15, 2025',
+    category: 'Science',
+    readTime: '4 min read',
+    content: `Fatigue in training isn't the same as feeling tired. You can feel great walking into the gym and still be carrying accumulated fatigue that's quietly eating into your recovery capacity. And you can feel sluggish but actually be fine to train hard. The feeling and the reality don't always line up.
+
+In a training context, fatigue is the gap between the stress you've accumulated and your body's ability to recover from it. When that gap gets too wide, performance drops, injury risk goes up, and muscle growth stalls. This is why smart programs include deload weeks. Not because you're lazy, but because your body needs periodic resets to keep adapting.
+
+Repwise calculates a fatigue score automatically using four components. Strength regression makes up 35% of the score. If your working weights are trending down across sessions, that's a strong signal you're digging a recovery hole. Volume load accounts for 30%. This looks at your total weekly volume relative to your historical averages and your estimated MRV. Training frequency is 20% of the score, tracking how many sessions you've done recently and whether you're giving muscle groups enough rest between hits. And nutrition compliance rounds it out at 15%, because undereating during a hard training block accelerates fatigue accumulation significantly.
+
+The score runs from 0 to 100. Under 40 is low fatigue, you're recovering well. 40 to 65 is moderate, keep an eye on it. Above 65 means you're accumulating more stress than you're recovering from, and performance is likely suffering even if you don't feel it yet.
+
+When your fatigue score crosses into the high zone, Repwise suggests a deload. Not a full week off, but a structured reduction. Typically it recommends cutting volume by 40 to 50% while keeping intensity moderate. Most users find that one deload week drops their fatigue score back to the low range, and their strength bounces back within the first session or two after.
+
+Don't wait until you're injured or burnt out to back off. Let the data tell you when it's time.`,
+  },
+  {
+    title: 'Meal Prep Meets Macro Tracking',
+    date: 'Feb 22, 2025',
+    category: 'Nutrition',
+    readTime: '3 min read',
+    content: `Meal prep is one of those things that sounds simple until you actually try to do it with specific macro targets. You cook a big batch of chicken and rice on Sunday, portion it out, and then realize you have no idea if each container actually hits your protein and carb goals. You're guessing. And guessing with nutrition is how people spin their wheels for months.
+
+The disconnect is that most meal prep advice ignores macros entirely, and most macro tracking apps ignore meal prep. You end up logging every ingredient manually, doing math on serving sizes, and hoping your Tuesday lunch is close enough to what you planned.
+
+Repwise bridges that gap. The meal plan feature lets you set your daily macro targets, then generates meal templates that actually hit those numbers. You pick your protein sources, your carb sources, your fats, and it builds out portions that add up correctly. No spreadsheet required.
+
+For packaged ingredients, the barcode scanner pulls nutrition data instantly from a database of over 3 million foods. Scan your rice, scan your sauce, scan your protein bars. It logs everything and adjusts the remaining meals in your day to keep you on target.
+
+The feature that saves the most time is copying meals between days. If your Monday lunch works, you can duplicate it to Tuesday through Friday with one tap. Most people eat the same 3 to 4 meals on rotation anyway, so this cuts your weekly logging time down to almost nothing. You set it up once and just confirm each day.
+
+Here's the practical approach: pick 3 to 4 base meals that you actually enjoy eating. Build them in Repwise with accurate macros. Prep them on Sunday. Copy them across your week. That's it. You'll spend less time logging than you did when you were winging it, and you'll actually know your numbers are right.`,
   },
 ];
 

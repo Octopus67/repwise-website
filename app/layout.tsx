@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'Repwise | Science-Based Fitness: Training + Nutrition in One App',
-  description: 'Adaptive TDEE tracking, progressive overload detection, and hypertrophy-optimized coaching. Built for serious lifters.',
+  description: 'The only app combining hypertrophy science, full nutrition tracking, and adaptive coaching. Free for all features. Built for serious lifters.',
   metadataBase: new URL('https://repwise.app'),
 };
 
