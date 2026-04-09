@@ -51,10 +51,19 @@ export default function TermsPage() {
         <section>
           <h2>4. Subscription &amp; Billing</h2>
           <p>
-            Subscriptions auto-renew unless cancelled before the renewal date. All payments are
-            processed as in-app purchases through Apple App Store or Google Play Store. Repwise never
-            directly handles payment card data. The free tier provides basic nutrition tracking and
-            training logging; premium features require an active subscription.
+            Repwise offers the following subscription plans:
+          </p>
+          <ul>
+            <li>Monthly: $9.99/month</li>
+            <li>Annual: $79.99/year (equivalent to $6.67/month)</li>
+          </ul>
+          <p>
+            Prices may vary by region and are displayed in your local currency at the time of
+            purchase. Subscriptions auto-renew unless cancelled at least 24 hours before the end of
+            the current billing period. All payments are processed as in-app purchases through Apple
+            App Store or Google Play Store. Repwise never directly handles payment card data. The
+            free tier provides basic nutrition tracking and training logging; premium features require
+            an active subscription.
           </p>
         </section>
 
@@ -120,6 +129,28 @@ export default function TermsPage() {
         <section>
           <h2>Modifications to Terms</h2>
           <p>We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the updated terms on this page and updating the &quot;Effective Date&quot; above. Your continued use of Repwise after changes are posted constitutes acceptance of the modified terms. We encourage you to review these terms periodically.</p>
+        </section>
+
+        <section>
+          <h2>Apple Licensed Application End User License Agreement</h2>
+          <p>
+            These Terms of Service are between you and Repwise only, and not with Apple Inc.
+            (&ldquo;Apple&rdquo;). Apple is not responsible for the App or its content.
+          </p>
+          <ul>
+            <li>Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</li>
+            <li>Apple has no warranty obligation with respect to the App. Any claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty are Repwise&apos;s sole responsibility.</li>
+            <li>Apple is not responsible for addressing any claims by you or any third party relating to the App or your possession and/or use of the App, including but not limited to: (i) product liability claims; (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection, privacy, or similar legislation.</li>
+            <li>In the event of any third-party claim that the App or your possession and use of the App infringes that third party&apos;s intellectual property rights, Apple is not responsible for the investigation, defense, settlement, or discharge of any such intellectual property infringement claim.</li>
+            <li>Apple and its subsidiaries are third-party beneficiaries of these Terms. Upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.</li>
+          </ul>
+          <p>
+            This agreement incorporates Apple&apos;s standard Licensed Application End User License
+            Agreement, available at{' '}
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="text-[#06B6D4] hover:underline" target="_blank" rel="noopener noreferrer">
+              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+            </a>
+          </p>
         </section>
 
         <section>

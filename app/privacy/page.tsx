@@ -57,8 +57,9 @@ export default function PrivacyPage() {
           </p>
           <h3>Device &amp; Technical Data</h3>
           <p>
-            Push tokens, analytics events (PostHog), and crash reports (Sentry), used for
-            notifications, improving features, and fixing bugs.
+            Device identifiers (anonymous device IDs for analytics), coarse location (IP-derived,
+            approximate only), push tokens, analytics events (PostHog), performance data, and crash
+            reports (Sentry), used for notifications, improving features, and fixing bugs.
           </p>
         </section>
 

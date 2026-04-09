@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About | Repwise',
-  description: 'Built by a lifter, for lifters. The story behind Repwise.',
+  description: 'Built by a lifter who got tired of juggling three apps. Meet the engineer behind Repwise.',
   alternates: { canonical: '/about' },
 };
 
@@ -59,6 +59,16 @@ export default function AboutPage() {
           <p>
             Built with TypeScript, React Native, and FastAPI. Every feature is backed by automated
             tests. No shortcuts, no tech debt. Just solid engineering for an app you can rely on.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold text-[#F1F5F9] mb-4">Support & Contact</h2>
+          <p>
+            For support, bug reports, or account issues, email us directly at{' '}
+            <a href="mailto:support@repwise.app" className="text-[#06B6D4] hover:underline">
+              support@repwise.app
+            </a>.
           </p>
         </section>
 
