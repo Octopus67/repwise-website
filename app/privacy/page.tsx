@@ -45,9 +45,9 @@ export default function PrivacyPage() {
             Height, weight, and body fat percentage, used for TDEE calculation, body composition
             tracking, and coaching recommendations. Encrypted at rest.
           </p>
-          <h3>Activity &amp; Nutrition Data</h3>
+          <h3>Workout &amp; Nutrition Data</h3>
           <p>
-            Nutrition logs and training logs, used for calorie/macro tracking, progressive overload
+            Workout data (exercise data, fitness data, and nutrition logs), used for calorie/macro tracking, progressive overload
             analysis, and PR detection. Encrypted at rest.
           </p>
           <h3>Media</h3>
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
           <p>
             Your data is retained while your account is active. Upon deletion request, a 30-day grace
             period begins. After 30 days, all personal data is permanently and irreversibly removed.
-            including account info, body measurements, nutrition logs, training logs, progress photos,
+            including account info, body measurements, nutrition logs, workout data, progress photos,
             and device tokens.
           </p>
         </section>

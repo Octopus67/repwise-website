@@ -23,6 +23,7 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-semibold text-[#F1F5F9] mb-4">The Story</h2>
           <p className="text-lg font-medium text-[#06B6D4] mb-3">Built by Manav</p>
+          <p className="text-sm text-[#94A3B8] mb-3">Octopus Labs</p>
           <p className="mb-4 italic text-[#94A3B8]">
             A lifter and engineer who spent years reading hypertrophy research and building the app he wished existed.
           </p>
