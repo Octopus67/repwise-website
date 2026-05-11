@@ -15,7 +15,7 @@ export default function TermsPage() {
           Terms of Service
         </h1>
         <p className="mt-4 text-[#94A3B8]">
-          Effective Date: March 20, 2026 · Last Updated: March 20, 2026
+          Effective Date: May 12, 2026 · Last Updated: May 12, 2026
         </p>
       </header>
 
@@ -33,15 +33,15 @@ export default function TermsPage() {
           <p>
             Repwise is a fitness application that provides adaptive nutrition tracking, training
             logging, body composition analysis, coaching recommendations, and related health and
-            fitness features. The App is available as a free version with limited features and a
-            premium subscription with full access.
+            fitness features. Every feature in the App is free to use. Optional 1-on-1 personal
+            coaching is available as a separate paid offering, sold and managed outside the App.
           </p>
         </section>
 
         <section>
           <h2>3. Account Registration</h2>
           <ul>
-            <li>You must provide a valid email address and create a password</li>
+            <li>You must provide a valid email address and create a password, or sign in via Apple Sign-In or Google Sign-In</li>
             <li>You are responsible for maintaining the confidentiality of your credentials</li>
             <li>You must be at least 13 years of age to create an account</li>
             <li>You agree to provide accurate information and keep it up to date</li>
@@ -49,30 +49,30 @@ export default function TermsPage() {
         </section>
 
         <section>
-          <h2>4. Subscription &amp; Billing</h2>
+          <h2>4. Pricing</h2>
           <p>
-            Repwise offers the following subscription plans:
+            Every feature in the App is free, including hypertrophy training tracking, full nutrition
+            logging, micronutrient analysis, periodization tools, recovery scoring, body
+            measurements, progress photos, and analytics. There is no premium subscription tier
+            within the App.
           </p>
-          <ul>
-            <li>Monthly: $9.99/month</li>
-            <li>Annual: $79.99/year (equivalent to $6.67/month)</li>
-          </ul>
           <p>
-            Prices may vary by region and are displayed in your local currency at the time of
-            purchase. Subscriptions auto-renew unless cancelled at least 24 hours before the end of
-            the current billing period. All payments are processed as in-app purchases through Apple
-            App Store or Google Play Store. Repwise never directly handles payment card data. The
-            free tier provides basic nutrition tracking and training logging; premium features require
-            an active subscription.
+            The only paid offering is optional 1-on-1 personal coaching. Coaching is sold and
+            managed outside the App. If you sign up for coaching, the terms of that arrangement are
+            between you and the coach (or the coaching service that bills you), and are not governed
+            by these Terms unless explicitly incorporated.
           </p>
         </section>
 
         <section>
-          <h2>5. Cancellation &amp; Refunds</h2>
+          <h2>5. Refunds and Billing Issues</h2>
           <p>
-            Cancel anytime through your device&apos;s subscription settings. You retain premium access
-            until the end of the current billing period. No partial refunds for unused time. Refunds
-            are handled by Apple or Google respectively.
+            There are no charges from Repwise within the App, so no cancellation or refund mechanism
+            applies to App usage. For issues with 1-on-1 coaching payments, contact the coach or
+            coaching service directly. In rare cases of billing errors, contact{' '}
+            <a href="mailto:support@repwise.app" className="text-[#06B6D4] hover:underline">
+              support@repwise.app
+            </a>.
           </p>
         </section>
 

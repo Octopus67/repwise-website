@@ -15,7 +15,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="mt-4 text-[#94A3B8]">
-          Effective Date: March 20, 2026 · Last Updated: March 20, 2026
+          Effective Date: May 12, 2026 · Last Updated: May 12, 2026
         </p>
       </header>
 
@@ -69,9 +69,10 @@ export default function PrivacyPage() {
             <li>Provide core functionality (nutrition tracking, training logging, adaptive TDEE)</li>
             <li>Calculate and adjust personalized nutrition targets</li>
             <li>Deliver coaching recommendations and weekly check-in reminders</li>
-            <li>Process subscription payments</li>
+            <li>Send push notifications you have opted into</li>
             <li>Monitor app performance and fix crashes</li>
             <li>Analyze usage patterns to improve the App</li>
+            <li>Comply with legal obligations</li>
           </ul>
           <p>We do not sell your personal data to third parties.</p>
         </section>
@@ -79,10 +80,14 @@ export default function PrivacyPage() {
         <section>
           <h2>4. Third-Party Services</h2>
           <p>
-            We share limited data with Apple App Store, Google Play Store, RevenueCat, Sentry,
-            PostHog, Firebase (FCM), Cloudflare R2, and AWS SES to operate the App. Repwise never
-            handles payment card data directly. All payments are processed through Apple or Google
-            via in-app purchases.
+            We share limited data with Sentry, PostHog, Firebase (FCM), Cloudflare R2, and AWS SES
+            to operate the App.
+          </p>
+          <p>
+            Every feature in the App is free. There are no in-App purchases or subscription payments
+            processed through the App. Optional 1-on-1 coaching is sold and managed outside the App;
+            if you sign up for coaching, the privacy practices of the coaching service apply to that
+            arrangement.
           </p>
         </section>
 
